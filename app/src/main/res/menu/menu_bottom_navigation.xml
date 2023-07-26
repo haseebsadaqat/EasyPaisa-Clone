@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="Home"  />
+        <item
+            android:id="@+id/cashPoints"
+            android:icon="@drawable/baseline_map_24"
+            android:title="CashPoints" />
+        <item
+            android:id="@+id/Qr"
+            android:icon="@drawable/baseline_qr_code_scanner_24"
+            android:enabled="true"
+            android:title=""
+             />
+        <item
+            android:id="@+id/promos"
+            android:icon="@drawable/baseline_bottom_promotions_off_24"
+            android:title="Promotions" />
+        <item
+            android:id="@+id/myAccount"
+            android:icon="@drawable/baseline_person_24"
+            android:title="MyAccount" />
+
+</menu>
