@@ -7,5 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="themecolor">#A7C738</color>
+    <color name="themecolor">#00BC5E</color>
+    <color name="debit1_theme">#046E39</color>
+    <color name="debit2_theme">#222020</color>
 </resources>
