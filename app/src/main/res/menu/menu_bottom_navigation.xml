@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
         <item
             android:id="@+id/home"
             android:icon="@drawable/baseline_home_24"
-            android:title="Home"  />
+            android:title="Home"
+            />
         <item
             android:id="@+id/cashPoints"
             android:icon="@drawable/baseline_map_24"
-            android:title="CashPoints" />
+            android:title="CashPoints"
+            android:enabled="true"
+            />
         <item
             android:id="@+id/Qr"
             android:icon="@drawable/baseline_qr_code_scanner_24"

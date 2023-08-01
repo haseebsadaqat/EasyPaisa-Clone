@@ -29,10 +29,8 @@ class MyAccount : Fragment() {
             startActivity(intent)
          /*   requireActivity().supportFragmentManager.beginTransaction()
                 .replace(com.example.task9kotlin.R.id.parentFrameLayout, AppHomeFragment.newInstance()).commit()*/
-
         }
     }
-
     companion object {
         fun newInstance() = MyAccount()
     }
