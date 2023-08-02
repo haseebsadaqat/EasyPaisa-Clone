@@ -10,15 +10,16 @@
         tools:context=".promotionsFragment.PromotionsFragment">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="70dp"
+            android:layout_height="@dimen/seventyDp"
             android:background="@color/themecolor">
             <ImageView
                 android:id="@+id/arrowImageButtonPromo"
                 android:src="@drawable/back_arrow24"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="15dp"
-                android:layout_marginTop="25dp"
+                android:layout_marginStart="@dimen/fifteenDp"
+                android:layout_marginTop="@dimen/twentyFiveDp"
+                app:tint="@color/white"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:text="Promotions"
                 android:textColor="@color/white"
-                android:textSize="20sp"
+                android:textSize="@dimen/twentySp"
                 app:layout_constraintBottom_toBottomOf="@+id/arrowImageButtonPromo"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toEndOf="@+id/arrowImageButtonPromo"
@@ -35,16 +36,15 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
-        <!-- TODO: Update blank fragment layout -->
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/promoFragmentRecyclerView"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="75dp"
-                android:layout_marginBottom="15dp"
-                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="@dimen/seventyFiveDp"
+                android:layout_marginBottom="@dimen/fifteenDp"
+                android:layout_marginHorizontal="@dimen/fifteenDp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                tools:layout_editor_absoluteX="15dp" />
+                tools:layout_editor_absoluteX="@dimen/fifteenDp" />
     </FrameLayout>
 </layout>

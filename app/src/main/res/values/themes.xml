@@ -26,4 +26,30 @@
         <item name="android:textColor">@drawable/text_color_selector</item>
         <item name="android:textSize">14sp</item>
     </style>
+
+    <style name="App.Custom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/themecolor</item>
+    </style>
+    <style name="MyBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+    <item name="itemTextAppearanceActive">@style/MyBottomNavigationView.active</item>
+    <item name="itemTextAppearanceInactive">@style/MyBottomNavigationView.TextAppearance</item>
+</style>
+<style name="MyBottomNavigationView.TextAppearance" parent="TextAppearance.MaterialComponents.Caption">
+<item name="android:textSize">8sp</item>
+</style>
+    <style name="MyBottomNavigationView.active" parent="TextAppearance.MaterialComponents.Caption">
+        <item name="android:textSize">8sp</item>
+    </style>
+  <!--  ShapeAppearance.Material3.NavigationBarView.ActiveIndicator-->
+    <style name="Widget.Material3.BottomNavigationView.ActiveIndicator" parent="">
+    <item name="android:width">@dimen/m3_bottom_nav_item_active_indicator_width</item>
+    <item name="android:height">@dimen/m3_bottom_nav_item_active_indicator_height</item>
+    <item name="marginHorizontal">@dimen/m3_bottom_nav_item_active_indicator_margin_horizontal</item>
+    <item name="shapeAppearance">@style/ShapeAppearance.Material3.NavigationBarView.ActiveIndicator</item>
+    <item name="android:color">?attr/colorSecondaryContainer</item></style>
+    <style name="AppCustom.Indicator" parent="Widget.Material3.BottomNavigationView.ActiveIndicator">
+        <item name="android:color">@color/themecolor</item>
+    </style>
+
+
 </resources>

@@ -16,7 +16,6 @@ class AccountSettings_Frag : Fragment() {
         // Inflate the layout for this fragment
         return FragmentAccountSettingsBinding.inflate(inflater,container,false).root
     }
-
     companion object {
         fun newInstance() = AccountSettings_Frag()
     }

@@ -7,8 +7,7 @@ import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.task9kotlin.homeFragment.moreWithEasyPaisa.MoreWithEasyPaisa
 import com.example.task9kotlin.homeFragment.moreWithEasyPaisa.MoreWithEasyPaisa_page2
 
-class ViewPagerAdapter( fragmentManager: FragmentManager,
-                        lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
+class ViewPagerAdapter( fragmentManager: FragmentManager, lifecycle: Lifecycle) : FragmentStateAdapter(fragmentManager, lifecycle) {
     override fun getItemCount(): Int {
         return 2
     }

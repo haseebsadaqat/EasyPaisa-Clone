@@ -14,7 +14,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_gravity="top|center_horizontal"
-    android:layout_margin="10dp">
+    android:layout_margin="@dimen/tenDp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:gravity="center_horizontal"
@@ -27,8 +27,8 @@
 
         <LinearLayout
             android:id="@+id/linearLayout1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/linearLayout4"
@@ -47,18 +47,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="EasyLoad"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/easyload"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/linearLayout3"
@@ -78,18 +78,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Easycash Loan"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/easycash_loan"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout3"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/linearLayout2"
@@ -108,18 +108,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Tohfa"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/tohfa"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/linearLayout2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -138,11 +138,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Invite and Earn"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/invite_and_earn"
                 android:singleLine="true"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/tenSp"
                 android:textStyle="bold" />
         </LinearLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -151,15 +151,15 @@
         android:id="@+id/secondRow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/tenDp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/firstRow">
 
         <LinearLayout
             android:id="@+id/Row2Item1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/Row2Item2"
@@ -178,19 +178,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/tenDp"
                 android:lines="1"
-                android:text="Raast Payment"
+                android:text="@string/raast_payment"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/tenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Row2Item2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/Row2Item3"
@@ -209,18 +209,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Mini App"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/mini_app"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Row2Item3"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/Row2Item4"
@@ -239,18 +239,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Savings"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/savings"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Row2Item4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -269,29 +269,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="@dimen/tenDp"
                 android:gravity="center"
                 android:lines="2"
-                android:text="Buy Now Pay \n Later"
+                android:text="@string/buy_now_pay_n_later"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
         </LinearLayout>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/lastConstraint"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="@dimen/tenDp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/secondRow">
 
         <LinearLayout
             android:id="@+id/Row3Item1"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/Row3Item2"
@@ -309,18 +310,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Insurance"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/insurance"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Row3Item2"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/Row3Item3"
@@ -338,18 +339,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Donations"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/donations"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Row3Item3"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/Row3Item4"
@@ -368,18 +369,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="Rs.1 Game"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/rs_1_game"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
 
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/Row3Item4"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="@dimen/eightyDp"
+            android:layout_height="@dimen/eightyDp"
             android:orientation="vertical"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -397,16 +398,49 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="10dp"
-                android:text="See ALL"
+                android:layout_marginTop="@dimen/tenDp"
+                android:text="@string/see_all"
                 android:textColor="@color/black"
-                android:textSize="11sp"
+                android:textSize="@dimen/elevenSp"
                 android:textStyle="bold" />
         </LinearLayout>
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/LastConstraint"
+        android:layout_width="@dimen/fourtyDp"
+        android:layout_marginVertical="@dimen/tenDp"
+        android:layout_height="@dimen/twelveDp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lastConstraint">
+
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="@dimen/tenDp"
+            android:layout_height="@dimen/tenDp"
+            android:background="@drawable/dot_progress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/button4"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            android:layout_width="@dimen/tenDp"
+            android:layout_height="@dimen/tenDp"
+            android:background="@drawable/dot_progress_white"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/button3"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
     </FrameLayout>
 </layout>

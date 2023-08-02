@@ -35,16 +35,23 @@ class PromotionsFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         val activity = requireNotNull(this.activity)
-        viewModel = ViewModelProvider(this,
-            ViewModelProvider.AndroidViewModelFactory(activity.application)).get(PromoFragAdapterViewModel::class.java)
+        viewModel = ViewModelProvider(this, ViewModelProvider.AndroidViewModelFactory(activity.application)).get(PromoFragAdapterViewModel::class.java)
+        backButtonListener()
+        recyclerAdapterSetup()
+    }
+
+    private fun recyclerAdapterSetup() {
+        binding.promoFragmentRecyclerView.adapter = adapter
+        binding.promoFragmentRecyclerView.layoutManager = LinearLayoutManager(context, VERTICAL,false )
+        adapter.setImagesIntergerArray(viewModel.promoImagesArray)
+    }
+
+    private fun backButtonListener() {
         binding.arrowImageButtonPromo.setOnClickListener {
             onDestroy()
             val intent = Intent(activity, MainActivity::class.java)
             startActivity(intent)
         }
-        binding.promoFragmentRecyclerView.adapter = adapter
-        binding.promoFragmentRecyclerView.layoutManager = LinearLayoutManager(context, VERTICAL,false )
-        adapter.setImagesIntergerArray(viewModel.promoImagesArray)
     }
     companion object {
         fun newInstance() = PromotionsFragment()

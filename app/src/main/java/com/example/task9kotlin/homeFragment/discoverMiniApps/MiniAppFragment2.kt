@@ -19,7 +19,6 @@ class MiniAppFragment2 : Fragment() {
         return binding.root
         //  return inflater.inflate(R.layout.fragment_mini_app1, container, false)
     }
-
     companion object {
         fun newInstance() = MiniAppFragment2()
 

@@ -12,22 +12,16 @@ class PromotionsAdapter : RecyclerView.Adapter<PromotionsAdapter.ViewHolder>() {
         imagesArray = imagesList
         notifyDataSetChanged()
     }
-
     inner class ViewHolder(val binding: MainPromotionsRecDetailBinding): RecyclerView.ViewHolder(binding.root){}
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding = MainPromotionsRecDetailBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
-
     }
-
     override fun getItemCount(): Int {
         return imagesArray.size
     }
-
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.binding.promorecyclerImages.setImageResource(imagesArray[position])
     }
-
-
 }

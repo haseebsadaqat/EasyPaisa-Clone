@@ -14,7 +14,6 @@ class PromoFragAdapter : RecyclerView.Adapter<PromoFragAdapter.MyViewHolder>() {
         imagesArray = imagesList
         notifyDataSetChanged()
     }
-
     inner class MyViewHolder(val binding: DetailPromoFragViewBinding): RecyclerView.ViewHolder(binding.root){}
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
@@ -22,12 +21,9 @@ class PromoFragAdapter : RecyclerView.Adapter<PromoFragAdapter.MyViewHolder>() {
         val binding=DetailPromoFragViewBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return MyViewHolder(binding)
     }
-
     override fun getItemCount(): Int {
      return imagesArray.size
-
     }
-
     override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
         holder.binding.imagePromoFragRecycler.setImageResource(imagesArray[position])
 

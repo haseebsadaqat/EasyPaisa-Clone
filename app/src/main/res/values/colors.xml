@@ -11,4 +11,7 @@
     <color name="debit1_theme">#046E39</color>
     <color name="debit2_theme">#222020</color>
     <color name="red">#E64A19</color>
+    <color name="backGround">#F1F8E9</color>
+    <color name="Gold">#827717</color>
+    <color name="darkGrey">#857F7F</color>
 </resources>

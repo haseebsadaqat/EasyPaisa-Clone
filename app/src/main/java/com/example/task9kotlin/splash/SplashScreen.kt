@@ -15,8 +15,6 @@ class SplashScreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivitySplashScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        //initializing Variables
-        initialSetup()
         //splash screen 3 seconds
         val updateHandler = Handler()
         val runnable = Runnable {
@@ -25,9 +23,5 @@ class SplashScreen : AppCompatActivity() {
             finish()
         }
         updateHandler.postDelayed(runnable, Constants.splashTime.toLong())
-    }
-
-    private fun initialSetup() {
-        // im=binding.splashimage}
     }
 }

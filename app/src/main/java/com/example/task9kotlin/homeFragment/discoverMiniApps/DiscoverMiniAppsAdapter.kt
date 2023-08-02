@@ -13,15 +13,12 @@ class DiscoverMiniAppsAdapter(fragmentManager: FragmentManager,
     override fun getItemCount(): Int {
         return 2
     }
-
     override fun createFragment(position: Int): Fragment {
         when (position) {
             0 -> return MiniAppFragment1.newInstance()
             1 -> return MiniAppFragment2.newInstance()
             else -> return MiniAppFragment1.newInstance()
         }
-
-
     }
 
 }

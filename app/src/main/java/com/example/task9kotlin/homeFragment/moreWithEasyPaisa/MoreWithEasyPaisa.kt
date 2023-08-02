@@ -18,10 +18,8 @@ class MoreWithEasyPaisa : Fragment() {
             binding = FragmentMoreWithEasyPaisaBinding.inflate(layoutInflater,container,false)
             return binding.root
     }
-
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
     }
     companion object {
         fun newInstance() = MoreWithEasyPaisa()
