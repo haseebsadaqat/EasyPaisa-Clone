@@ -16,8 +16,8 @@
                 android:id="@+id/arrowImageButtonAccountSett"
                 android:src="@drawable/back_arrow24"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/fiftyDp"
+                android:layout_height="@dimen/sixteenSp"
+                android:layout_marginStart="@dimen/fourteenDp"
                 android:layout_marginTop="@dimen/twentyFiveDp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
@@ -29,7 +29,7 @@
                 android:layout_marginStart="@dimen/fifteenDp"
                 android:text="@string/account_settings"
                 android:textColor="@color/black"
-                android:textSize="@dimen/thirtyTwoSp"
+                android:textSize="@dimen/twentyFiveSp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/arrowImageButtonAccountSett" />
@@ -40,6 +40,7 @@
                 android:layout_height="wrap_content"
                 android:text="@string/profile_settings_and_more"
                 android:textColor="@color/black"
+                android:textSize="@dimen/sixteenSp"
                 app:layout_constraintStart_toStartOf="@+id/tv_MyAccount"
                 app:layout_constraintTop_toBottomOf="@+id/tv_MyAccount" />
 

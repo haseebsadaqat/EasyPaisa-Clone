@@ -52,4 +52,5 @@
     <dimen name="oneDp">1dp</dimen>
     <dimen name="twentyFiveSp">25sp</dimen>
     <dimen name="seventyFiveDp">75dp</dimen>
+    <dimen name="sixteenDp">16dp</dimen>
 </resources>

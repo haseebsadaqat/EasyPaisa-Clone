@@ -30,13 +30,11 @@ class MainActivity : AppCompatActivity() {
         //bottom navigation
         bottomNav()
     }
-
     private fun navigationIconListener() {
         toolBar.setNavigationOnClickListener {
             commonToolbarSetting()
         }
     }
-
     private fun bottomNav() {
         binding.bottomNavigation.setOnItemSelectedListener {
             var selectedFragment:Fragment? =null

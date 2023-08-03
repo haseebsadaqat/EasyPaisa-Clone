@@ -31,6 +31,11 @@
         <item name="android:color">@color/themecolor</item>
     </style>
     <style name="MyBottomNavigationView" parent="Widget.MaterialComponents.BottomNavigationView">
+   <item name="android:state_checked">false</item>
+        <item name="state_with_icon">false</item>
+        <item name="state_lifted">false</item>
+        <item name="checkedTextViewStyle">@dimen/eightSp</item>
+        <item name="tabIndicator">@style/Widget.MaterialComponents.Slider</item>
     <item name="itemTextAppearanceActive">@style/MyBottomNavigationView.active</item>
     <item name="itemTextAppearanceInactive">@style/MyBottomNavigationView.TextAppearance</item>
 </style>

@@ -21,10 +21,10 @@
         <ImageView
             android:id="@+id/arrowImageButton"
             android:src="@drawable/back_arrow24"
-            android:layout_width="wrap_content"
+            android:layout_width="@dimen/sixteenDp"
             android:layout_height="wrap_content"
             android:layout_marginStart="@dimen/fifteenDp"
-            android:layout_marginTop="@dimen/twentyFiveDp"
+            android:layout_marginTop="@dimen/twentyDp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,40 +32,38 @@
             android:id="@+id/tv_MyAccount"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/twentyDp"
+            android:layout_marginTop="@dimen/tenDp"
             android:layout_marginStart="@dimen/fifteenDp"
             android:text="My Account"
             android:textColor="@color/black"
-            android:textSize="@dimen/thirtyTwoSp"
+            android:textSize="@dimen/twentyTwoDp"
             android:textStyle="bold"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/arrowImageButton" />
 
         <TextView
             android:id="@+id/tvProfile"
-            android:text="@string/profile_settings_and_more"
-            android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:layout_constraintEnd_toEndOf="@+id/tv_MyAccount"
+            android:text="@string/profile_settings_and_more"
+            android:textColor="@color/black"
             app:layout_constraintStart_toStartOf="@+id/tv_MyAccount"
             app:layout_constraintTop_toBottomOf="@+id/tv_MyAccount" />
 
         <androidx.appcompat.widget.SwitchCompat
             android:id="@+id/customSwitch"
             android:layout_width="@dimen/ninghtyDp"
-            android:layout_height="@dimen/fourtyDp"
+            android:layout_height="@dimen/fiveDp"
             android:layout_marginRight="@dimen/twentyDp"
             android:checked="false"
-            android:paddingTop="@dimen/twoDp"
             android:gravity="center"
+            android:paddingTop="@dimen/twoDp"
             android:textOff="@string/eng"
             android:textOn="@string/urdu"
-            app:layout_constraintBottom_toTopOf="@+id/tvProfile"
+            android:thumb="@drawable/thumb_selector"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="@+id/tv_MyAccount"
             app:showText="true"
-            android:thumb="@drawable/thumb_selector"
             app:switchTextAppearance="@style/SwitchTextAppearance"
             app:track="@drawable/track_selector" />
 
@@ -74,16 +72,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/version_v_2_9"
-            android:textSize="@dimen/eighteenSp"
             android:textColor="@color/darkGrey"
+            android:textSize="@dimen/eighteenSp"
             app:layout_constraintEnd_toEndOf="@+id/customSwitch"
+            app:layout_constraintStart_toStartOf="@+id/customSwitch"
             app:layout_constraintTop_toBottomOf="@+id/customSwitch" />
 
         <androidx.cardview.widget.CardView
             android:id="@+id/helpAndSuppport"
             android:layout_width="@dimen/zeroDp"
             android:layout_marginTop="@dimen/twentyDp"
-            android:layout_height="@dimen/oneSixtyDp"
+            android:layout_height="@dimen/oneTwentyDp"
             android:layout_marginHorizontal="@dimen/fifteenDp"
             android:orientation="vertical"
             app:cardBackgroundColor="@color/themecolor"
@@ -156,7 +155,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:id="@+id/textRows"
-            android:layout_marginTop="@dimen/fourtyDp"
+            android:layout_marginTop="@dimen/tenDp"
             android:layout_marginHorizontal="@dimen/fifteenDp"
             android:layout_width="match_parent"
             android:layout_height="@dimen/fourHundredDp"
@@ -394,11 +393,11 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
 
         <TextView
-            android:layout_marginTop="@dimen/fifteenDp"
+            android:layout_marginTop="@dimen/tenDp"
             android:layout_marginLeft="@dimen/fifteenDp"
             android:id="@+id/help"
             android:textStyle="bold"
-            android:textSize="@dimen/twentyFiveSp"
+            android:textSize="@dimen/twentySp"
             android:textColor="@color/black"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

@@ -26,7 +26,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_margin="@dimen/fifteenDp"
+                    android:layout_margin="@dimen/twentyTwoDp"
                     app:cardBackgroundColor="@color/white"
 
                     app:cardCornerRadius="@dimen/tenDp">
@@ -55,7 +55,6 @@
                             android:text="@string/muhammad_ali"
                             android:textColor="@color/black"
                             android:textSize="@dimen/fourteenSp"
-                            android:textStyle="bold"
                             app:layout_constraintEnd_toEndOf="@+id/imageView"
                             app:layout_constraintStart_toStartOf="@+id/imageView"
                             app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -80,18 +79,19 @@
                             android:text="@string/sign_in_to_your_easypaisa_account"
                             android:textColor="@color/black"
                             android:textSize="@dimen/twelveSp"
-                            android:textStyle="bold"
                             app:layout_constraintStart_toStartOf="@+id/textView"
                             app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-                        <Button
+                        <androidx.appcompat.widget.AppCompatButton
                             android:layout_width="wrap_content"
-                            android:layout_height="@dimen/zeroDp"
+                            android:layout_height="@dimen/twentyDp"
                             android:background="@drawable/background_button"
                             android:gravity="fill|center"
                             android:text="@string/sign_in"
+                            android:textAllCaps="false"
                             android:textAlignment="center"
                             android:textSize="@dimen/twelveSp"
+                            android:textColor="@color/white"
                             app:layout_constraintBottom_toBottomOf="@+id/textView"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintHeight_percent=".195"
@@ -207,10 +207,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="@dimen/fifteenDp"
-                android:layout_marginTop="@dimen/fourtyDp"
+                android:layout_marginTop="@dimen/fifteenDp"
                 android:text="More with easypaisa"
                 android:textColor="@color/black"
-                android:textSize="@dimen/sixteenSp"
+                android:textSize="@dimen/twelveSp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/sendMoney" />
@@ -236,10 +236,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/fifteenDp"
-                android:layout_marginTop="@dimen/fourtyDp"
+                android:layout_marginTop="@dimen/fifteenDp"
                 android:text="@string/get_your_easypaisa_debit_card"
                 android:textColor="@color/black"
-                android:textSize="@dimen/sixteenSp"
+                android:textSize="@dimen/twelveSp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/moreEasyPaisaCard" />
@@ -359,10 +359,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/fifteenDp"
-                android:layout_marginTop="@dimen/fourtyDp"
+                android:layout_marginTop="@dimen/fifteenDp"
                 android:text="@string/promotions"
                 android:textColor="@color/black"
-                android:textSize="@dimen/sixteenSp"
+                android:textSize="@dimen/twelveSp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/debitCard1" />
@@ -383,10 +383,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="@dimen/fifteenDp"
-                android:layout_marginTop="@dimen/fourtyDp"
+                android:layout_marginTop="@dimen/fifteenDp"
                 android:text="Discover MiniApps on easypaisa"
                 android:textColor="@color/black"
-                android:textSize="@dimen/sixteenSp"
+                android:textSize="@dimen/twelveSp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/mainPromotionsRecyclerView"/>

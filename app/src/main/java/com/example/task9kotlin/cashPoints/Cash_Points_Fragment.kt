@@ -47,7 +47,6 @@ class Cash_Points_Fragment : Fragment() {
         bottomSheetBehavior = BottomSheetBehavior.from(BottomSheetBinding)
         listenersWithCallback()
     }
-
     private fun listenersWithCallback() {
         bottomSheetBehavior.addBottomSheetCallback(object : BottomSheetBehavior.BottomSheetCallback() {
             override fun onStateChanged(bottomSheet: View, newState: Int) {

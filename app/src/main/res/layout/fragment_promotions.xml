@@ -10,18 +10,19 @@
         tools:context=".promotionsFragment.PromotionsFragment">
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="@dimen/seventyDp"
+            android:layout_height="@dimen/fourtyDp"
             android:background="@color/themecolor">
+
             <ImageView
                 android:id="@+id/arrowImageButtonPromo"
-                android:src="@drawable/back_arrow24"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/sixteenDp"
                 android:layout_marginStart="@dimen/fifteenDp"
-                android:layout_marginTop="@dimen/twentyFiveDp"
-                app:tint="@color/white"
+                android:src="@drawable/back_arrow24"
+                app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -31,7 +32,7 @@
                 android:textSize="@dimen/twentySp"
                 app:layout_constraintBottom_toBottomOf="@+id/arrowImageButtonPromo"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/arrowImageButtonPromo"
+                app:layout_constraintStart_toStartOf="@+id/arrowImageButtonPromo"
                 app:layout_constraintTop_toTopOf="@+id/arrowImageButtonPromo" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

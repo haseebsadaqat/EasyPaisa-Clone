@@ -16,32 +16,32 @@
         <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/upperConstraint"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/seventyDp"
+                android:layout_height="@dimen/fourtyDp"
                 android:background="@color/themecolor"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <ImageView
-                    android:id="@+id/arrowImageButtonCashPoint"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="@dimen/fiftyDp"
-                    android:layout_marginTop="@dimen/twentyFiveDp"
-                    android:src="@drawable/back_arrow24"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"
-                    app:tint="@color/white" />
+            <ImageView
+                android:id="@+id/arrowImageButtonCashPoint"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/sixteenDp"
+                android:layout_marginStart="@dimen/fifteenDp"
+                android:src="@drawable/back_arrow24"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:tint="@color/white" />
 
-                <TextView
-                    android:id="@+id/tv4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/cash_points"
-                    android:textColor="@color/white"
-                    android:textSize="@dimen/twentySp"
-                    app:layout_constraintBottom_toBottomOf="@+id/arrowImageButtonCashPoint"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toEndOf="@+id/arrowImageButtonCashPoint"
-                    app:layout_constraintTop_toTopOf="@+id/arrowImageButtonCashPoint" />
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cash_points"
+                android:textColor="@color/white"
+                android:textSize="@dimen/twentySp"
+                app:layout_constraintBottom_toBottomOf="@+id/arrowImageButtonCashPoint"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="@+id/arrowImageButtonCashPoint"
+                app:layout_constraintTop_toTopOf="@+id/arrowImageButtonCashPoint" />
             </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 </layout>

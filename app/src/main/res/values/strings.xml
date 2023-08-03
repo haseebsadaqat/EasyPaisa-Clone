@@ -45,7 +45,7 @@
     <string name="muhammad_ali">Muhammad Ali</string>
     <string name="_03366617380">03366617380</string>
     <string name="sign_in_to_your_easypaisa_account">Sign in to your easypaisa account</string>
-    <string name="sign_in">Sign in</string>
+    <string name="sign_in">Sign In</string>
     <string name="coming_soon">Coming Soon</string>
     <string name="help_and_customer_support">Help and Customer Support</string>
     <string name="register_a_complaint_or_get_quick_help_on_quries_n_payments_in_pakistan">Register a complaint or get quick help on quries \n Payments in Pakistan</string>
@@ -69,9 +69,10 @@
     <string name="rs_1_game">Rs.1 Game</string>
     <string name="see_all">See ALL</string>
     <string name="eng">Eng</string>
-    <string name="urdu">Urdu</string>
+    <string name="urdu">اردو</string>
     <string name="version_v_2_9">Version V.2.9</string>
     <string name="register_email">Register Email</string>
     <string name="scan_qr_to_make_payment">Scan QR TO Make Payment</string>
     <string name="help">Help</string>
+    <string name="notGranted">Permission Not Granted</string>
 </resources>
