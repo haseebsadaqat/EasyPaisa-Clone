@@ -27,6 +27,6 @@ To get started you can simply download zip file or clone this project.
 
 
 
-![easypaisa_promotions](https://github.com/haseebsadaqat/EasyPaisa-Clone/assets/48862033/1b75225e-2215-4097-8c58-293320e4fd2e)
+![easypaisa4](https://github.com/haseebsadaqat/EasyPaisa-Clone/assets/48862033/726fc9f2-aab3-4573-aee3-cef6d21bd7c2)
 
 
