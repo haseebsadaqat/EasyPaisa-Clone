@@ -10,9 +10,6 @@ import com.example.task9kotlin.databinding.FragmentMiniApp1Binding
 
 class MiniAppFragment1 : Fragment() {
     lateinit private var binding : FragmentMiniApp1Binding
-
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -21,9 +18,7 @@ class MiniAppFragment1 : Fragment() {
         binding = FragmentMiniApp1Binding.inflate(layoutInflater,container,false)
         return binding.root
     }
-
     companion object {
         fun newInstance() = MiniAppFragment1()
-
     }
 }

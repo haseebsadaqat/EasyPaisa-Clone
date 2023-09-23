@@ -13,11 +13,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".myAccount.MyAccount">
-
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
         <ImageView
             android:id="@+id/arrowImageButton"
             android:src="@drawable/back_arrow24"
@@ -27,7 +25,6 @@
             android:layout_marginTop="@dimen/twentyDp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-
         <TextView
             android:id="@+id/tv_MyAccount"
             android:layout_width="wrap_content"
@@ -108,7 +105,7 @@
                 android:layout_gravity="top|start"
                 android:layout_marginStart="@dimen/ninghtyDp"
                 android:layout_marginTop="@dimen/fiftyDp"
-                android:text="@string/_03366617380"
+                android:text="@string/_03362617280"
                 android:textColor="@color/white"
                 android:textSize="@dimen/fourteenSp" />
 
@@ -141,7 +138,7 @@
                 android:layout_marginTop="@dimen/thirtyTwoDp"
                 android:layout_width="@dimen/fiftyFiveDp"
                 android:text="Edit"
-
+                android:backgroundTint="@color/white"
                 android:paddingLeft="@dimen/eightDp"
                 android:drawablePadding="@dimen/oneDp"
                 android:gravity="start|center_vertical"
@@ -462,7 +459,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/tv12">
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="@dimen/thirtyDp"
@@ -474,10 +470,8 @@
                     android:textColor="@color/black"
                     android:textStyle="bold" />
             </LinearLayout>
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.constraintlayout.widget.ConstraintLayout>
-
     </FrameLayout>
 </androidx.core.widget.NestedScrollView>
 </layout>

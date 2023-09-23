@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Task9Kotlin</string>
+    <string name="app_name">EasyPaisa Clone</string>
     <string name="application_name">easypaisa</string>
 
     <string name="accountTv1">Upgrade Account</string>
@@ -43,7 +43,7 @@
     <string name="account_settings">Account Settings</string>
     <string name="notifications">Notifications</string>
     <string name="muhammad_ali">Muhammad Ali</string>
-    <string name="_03366617380">03366617380</string>
+    <string name="_03362617280">03365617320</string>
     <string name="sign_in_to_your_easypaisa_account">Sign in to your easypaisa account</string>
     <string name="sign_in">Sign In</string>
     <string name="coming_soon">Coming Soon</string>

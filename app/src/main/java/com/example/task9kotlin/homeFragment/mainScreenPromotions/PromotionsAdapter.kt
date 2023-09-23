@@ -1,5 +1,4 @@
 package com.example.task9kotlin.homeFragment.mainScreenPromotions
-
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -13,7 +12,6 @@ class PromotionsAdapter : RecyclerView.Adapter<PromotionsAdapter.ViewHolder>() {
         notifyDataSetChanged()
     }
     inner class ViewHolder(val binding: MainPromotionsRecDetailBinding): RecyclerView.ViewHolder(binding.root){}
-
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding = MainPromotionsRecDetailBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
